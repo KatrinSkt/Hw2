@@ -9,63 +9,44 @@ public class Main {
         System.out.println("paper = " + paper);
 
         // задание 2
-        var result1 = dog + 4;
-        System.out.println("dog = " + result1);
-        var result2 = cat + 4;
-        System.out.println("cat = " + result2);
-        var result3 = paper + 4;
-        System.out.println("paper = " + result3);
+        System.out.println("dog = " + (dog + 4));
+        System.out.println("cat = " + (cat + 4));
+        System.out.println("paper = " + (paper + 4));
 
         // задание 3
-        var result4 = dog - 3.5;
-        System.out.println("dog = " + result4);
-        var result5 = cat - 1.6;
-        System.out.println("cat = " + result5);
-        var result6 = paper - 7639;
-        System.out.println("paper = " + result6);
+        System.out.println("dog = " + (dog - 3.5));
+        System.out.println("cat = " + (cat - 1.6));
+        System.out.println("paper = " + (paper - 7639));
 
         // задание 4
         var friend = 19;
         System.out.println("friend = " + friend);
-        var result7 = friend + 2;
-        System.out.println("friend = " + result7);
-        var result8 = result7/7;
-        System.out.println("friend = " + result8);
+        System.out.println("friend = " + (friend + 2));
+        System.out.println("friend = " + ((friend + 2)/7));
 
         // задание 5
         var frog = 3.5;
         System.out.println("frog = " + frog);
-        var result9 = frog * 10;
-        System.out.println("frog = " + result9);
-        var result10 = result9/3.5;
-        System.out.println("frog = " + result10);
-        var result11 = result10 + 4;
-        System.out.println("frog = " + result11);
+        System.out.println("frog = " + (frog * 10));
+        System.out.println("frog = " + (frog * 10 / 3.5));
+        System.out.println("frog = " + (frog * 10 / 3.5 + 4));
 
         // задание 6
         var boxer1Weight = 78.2;
         System.out.println("Вес первого боксера = " + boxer1Weight + " кг");
         var boxer2Weight = 82.7;
         System.out.println("Вес второго боксера = " + boxer2Weight + " кг");
-        var result12 = boxer1Weight + boxer2Weight;
-        System.out.println("Общий вес = " + result12 + " kg");
-        var differenceWeight = boxer2Weight - boxer1Weight;
-        System.out.println("Разница в весе = " + differenceWeight + " кг");
+        System.out.println("Общий вес = " + (boxer1Weight + boxer2Weight) + " kg");
+        System.out.println("Разница в весе = " + (boxer2Weight - boxer1Weight) + " кг");
 
         // задание 7
 
-        var overload = boxer2Weight % boxer1Weight;
-        System.out.println("Перевес на " + overload + " кг");
+        System.out.println("Перевес на " + (boxer2Weight % boxer1Weight) + " кг");
 
         // задание 8
-        var workHours = 640;
-        System.out.println("Количество часов = " + workHours + " часов");
-        var humanWork = 8;
-        System.out.println("Человек работает = " + humanWork + " часов");
-        var people = workHours / humanWork;
-        System.out.println("Всего работников в компании — " + people + " человек");
-        var people2 = people + 94;
-        var workHours2 = people2 * 8;
-        System.out.println("Если в компании работает " + people2 + " человек, то всего " + workHours2 + " часов работы может быть поделено между сотрудниками");
+        System.out.println("Количество часов = " + 640 + " часов");
+        System.out.println("Человек работает = " + 8 + " часов");
+        System.out.println("Всего работников в компании — " + (640 / 8) + " человек");
+        System.out.println("Если в компании работает " + (640 / 8 + 94) + " человек, то всего " + ((640 / 8 + 94) * 8) + " часов работы может быть поделено между сотрудниками");
     }
 }
