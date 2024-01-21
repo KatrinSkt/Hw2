@@ -40,7 +40,6 @@ public class Main {
         System.out.println("Разница в весе = " + (boxer2Weight - boxer1Weight) + " кг");
 
         // задание 7
-
         System.out.println("Перевес на " + (boxer2Weight % boxer1Weight) + " кг");
 
         // задание 8
