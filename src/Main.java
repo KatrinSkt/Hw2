@@ -9,27 +9,38 @@ public class Main {
         System.out.println("paper = " + paper);
 
         // задание 2
-        System.out.println("dog = " + (dog + 4));
-        System.out.println("cat = " + (cat + 4));
-        System.out.println("paper = " + (paper + 4));
+        dog = dog + 4;
+        System.out.println("dog = " + dog);
+        cat = cat + 4;
+        System.out.println("cat = " + cat);
+        paper = paper + 4;
+        System.out.println("paper = " + paper);
 
         // задание 3
-        System.out.println("dog = " + (dog - 3.5));
-        System.out.println("cat = " + (cat - 1.6));
-        System.out.println("paper = " + (paper - 7639));
+        dog = dog - 3.5;
+        System.out.println("dog = " + dog);
+        cat = cat - 1.6;
+        System.out.println("cat = " + cat);
+        paper = paper - 7639;
+        System.out.println("paper = " + paper);
 
         // задание 4
         var friend = 19;
         System.out.println("friend = " + friend);
-        System.out.println("friend = " + (friend + 2));
-        System.out.println("friend = " + ((friend + 2)/7));
+        friend = friend + 2;
+        System.out.println("friend = " + friend);
+        friend = friend / 7;
+        System.out.println("friend = " + friend);
 
         // задание 5
         var frog = 3.5;
         System.out.println("frog = " + frog);
-        System.out.println("frog = " + (frog * 10));
-        System.out.println("frog = " + (frog * 10 / 3.5));
-        System.out.println("frog = " + (frog * 10 / 3.5 + 4));
+        frog = frog * 10;
+        System.out.println("frog = " + frog);
+        frog = frog / 3.5;
+        System.out.println("frog = " + frog);
+        frog = frog + 4;
+        System.out.println("frog = " + frog);
 
         // задание 6
         var boxer1Weight = 78.2;
@@ -43,9 +54,14 @@ public class Main {
         System.out.println("Перевес на " + (boxer2Weight % boxer1Weight) + " кг");
 
         // задание 8
-        System.out.println("Количество часов = " + 640 + " часов");
-        System.out.println("Человек работает = " + 8 + " часов");
-        System.out.println("Всего работников в компании — " + (640 / 8) + " человек");
-        System.out.println("Если в компании работает " + (640 / 8 + 94) + " человек, то всего " + ((640 / 8 + 94) * 8) + " часов работы может быть поделено между сотрудниками");
+        var workHours = 640;
+        System.out.println("Количество часов = " + workHours + " часов");
+        var humanWork = 8;
+        System.out.println("Человек работает = " + humanWork + " часов");
+        var people = workHours / humanWork;
+        System.out.println("Всего работников в компании — " + people + " человек");
+        people = people + 94;
+        workHours = people * 8;
+        System.out.println("Если в компании работает " + people + " человека, то всего " + workHours + " часов работы может быть поделено между сотрудниками");
     }
 }
